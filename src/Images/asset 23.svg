@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icon/places/pool_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.5,4.5 L10.5,15.75 L2.25,15.75 L2.25,14.25 L3.75,14.25 L3.75,2.25 L10.5,2.25 L10.5,3 L14.25,3 L14.25,14.25 L15.75,14.25 L15.75,15.75 L12.75,15.75 L12.75,4.5 L10.5,4.5 Z M7.5,8.25 L7.5,9.75 L9,9.75 L9,8.25 L7.5,8.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Hotel_User_part_UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="properties_details_02" transform="translate(-454.000000, -2046.000000)">
+            <g id="Facilities" transform="translate(164.000000, 1818.000000)">
+                <g id="offer-copy-4" transform="translate(32.000000, 225.000000)">
+                    <g id="Pool-Copy-3" transform="translate(258.000000, 0.000000)">
+                        <g id="icon/places/meeting_room_24px" transform="translate(0.000000, 3.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g fill-rule="nonzero"></g>
+                            <g id="👷‍♂️Atoms/Colour/Black/100%" mask="url(#mask-2)" fill="#5D6974" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="18" height="18"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icons/Solid/Basket</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9,9.75 C7.5525,9.75 6.375,8.5725 6.375,7.125 C6.375,5.6775 7.5525,4.5 9,4.5 C10.4475,4.5 11.625,5.6775 11.625,7.125 C11.625,8.5725 10.4475,9.75 9,9.75 M9,1.5 C5.69175,1.5 3,4.1655 3,7.44225 C3,11.54775 8.28675,16.1265 8.51175,16.31925 C8.65275,16.44 8.826,16.5 9,16.5 C9.174,16.5 9.34725,16.44 9.48825,16.31925 C9.71325,16.1265 15,11.54775 15,7.44225 C15,4.1655 12.30825,1.5 9,1.5" id="path-1"></path>
+    </defs>
+    <g id="1.-Browse-&amp;-Search-(𝟯)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search_Results_v_02_add_hover" transform="translate(-181.000000, -350.000000)">
+            <g id="Search_location" transform="translate(165.000000, 151.000000)">
+                <g id="Input/SearchList-Copy-4" transform="translate(0.000000, 184.000000)">
+                    <g id="SearchList">
+                        <g id="pin-fill" transform="translate(13.000000, 14.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="🎨-Icon-Сolor" fill="#818A93" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Filter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Responsive-view" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03_Search-Flight" transform="translate(-308.000000, -263.000000)" fill="#A5ABB2">
+            <g id="Mobile-/-Crane-02">
+                <g id="Input/Label/Label&amp;Text-Copy-3" transform="translate(26.000000, 251.000000)">
+                    <g id="Label">
+                        <g id="Group-7" transform="translate(218.000000, 12.000000)">
+                            <g id="Filter" transform="translate(64.000000, 0.000000)">
+                                <g transform="translate(2.000000, 2.000000)" id="Fill">
+                                    <path d="M14.8375,13.75 C16.0735209,12.2799184 16.7508267,10.4206475 16.75,8.5 C16.75,3.94365081 13.0563492,0.25 8.5,0.25 C3.94365081,0.25 0.25,3.94365081 0.25,8.5 C0.25,13.0563492 3.94365081,16.75 8.5,16.75 C10.4206475,16.7508267 12.2799184,16.0735209 13.75,14.8375 L19.4425,20.5 L20.5,19.4425 L14.8375,13.75 Z M8.5,15.25 C4.77207794,15.25 1.75,12.2279221 1.75,8.5 C1.75,4.77207794 4.77207794,1.75 8.5,1.75 C12.2279221,1.75 15.25,4.77207794 15.25,8.5 C15.25,12.2279221 12.2279221,15.25 8.5,15.25 L8.5,15.25 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

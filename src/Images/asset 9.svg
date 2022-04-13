@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_112" data-name="Group 112" transform="translate(-213.5 -592.5)">
+    <g id="dollar-sign" transform="translate(215.5 597)">
+      <line id="Line_8" data-name="Line 8" y2="12" transform="translate(9.5 1)" fill="none" stroke="#1c3c6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_310" data-name="Path 310" d="M11.958,5H7.9a1.9,1.9,0,0,0,0,3.792H10.6a1.9,1.9,0,1,1,0,3.792H6" transform="translate(0 -1.833)" fill="none" stroke="#1c3c6b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+    <circle id="circle" cx="10" cy="10" r="10" stroke-width="2" transform="translate(214.5 593.5)" stroke="#1c3c6b" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

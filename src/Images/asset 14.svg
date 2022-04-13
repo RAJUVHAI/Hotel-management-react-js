@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Components/Rating_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.3641897,4.06483607 L8.09329421,3.58797039 L6.63135392,0.62379129 C6.36941362,0.0954330812 5.61045839,0.0887166633 5.34627929,0.62379129 L3.88433899,3.58797039 L0.613443467,4.06483607 C0.0268763031,4.14991069 -0.208198324,4.87304502 0.217174811,5.28722413 L2.58359272,7.59319428 L2.02389123,10.850657 C1.92314496,11.4394629 2.54329421,11.8805077 3.0626972,11.6051346 L5.9888166,10.0670749 L8.914936,11.6051346 C9.43433899,11.8782689 10.0544882,11.4394629 9.95374197,10.850657 L9.39404048,7.59319428 L11.7604584,5.28722413 C12.1858315,4.87304502 11.9507569,4.14991069 11.3641897,4.06483607 L11.3641897,4.06483607 Z" id="path-1"></path>
+    </defs>
+    <g id="1.-Browse-&amp;-Search-(𝟯)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search_Results_v_03" transform="translate(-784.000000, -274.000000)">
+            <g id="Results" transform="translate(165.000000, 182.000000)">
+                <g id="Horizontal-Card-Copy-2" transform="translate(285.000000, 69.000000)">
+                    <g id="Horizontal">
+                        <g id="Right-Side" transform="translate(334.000000, 20.000000)">
+                            <g id="Seller">
+                                <g id="Components/Rating_2" transform="translate(0.000000, 3.000000)">
+                                    <g id="Rating">
+                                        <g id="Icons/Solid//Star">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <use id="Star" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                            <g id="👷‍♂️Atoms/Colour/Blue/100%" mask="url(#mask-2)" fill="#056998" fill-rule="evenodd">
+                                                <rect id="Rectangle" x="0" y="0" width="12" height="12"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
