@@ -4,6 +4,11 @@ import FilteringHotelDocs from './FliteringHotelDocs';
 
 export default function FilteringHotels() {
 
+    // live search start state
+    const [query, setQuery] = useState("");
+    // live seacrch end state
+
+    // filtering hotel start
     const [Items, setItems] = useState(FilteringHotelDocs);
     const filterItem = (categStarItem) => {
 
@@ -13,6 +18,11 @@ export default function FilteringHotels() {
         setItems(updatedItems);
 
     }
+    // filtering hotels end
+
+
+
+
     return (
         <div className='shadow-lg'>
             <div className="container">
@@ -39,7 +49,7 @@ export default function FilteringHotels() {
                             <span className="py-3" >Filtered by</span>
                             <hr />
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search this blog" />
+                                <input type="text" class="form-control" placeholder="Search this blog" onChange={(e) => setQuery(e.target.value)} />
                                 <div class="input-group-append">
                                     <button class="btn btn-secondary" type="button">
                                         <FaSistrix />
@@ -88,7 +98,7 @@ export default function FilteringHotels() {
                         <div className="row">
                             <div className="col">
                                 {
-                                    Items.map((items, index) => {
+                                    Items.filter((hotel) => hotel.title.toLowerCase().includes(query) || hotel.location.toLowerCase().includes(query) || hotel.sublocation.toLowerCase().includes(query) || hotel.discountPrice.toLowerCase().includes(query) || hotel.Price.toLowerCase().includes(query) || hotel.priceTitle.toLowerCase().includes(query) || hotel.percentage.toLowerCase().includes(query)).map((items, index) => {
                                         return (
                                             <>
                                                 <div key={index} className="HotelLists bg-light my-2 shadow-lg">

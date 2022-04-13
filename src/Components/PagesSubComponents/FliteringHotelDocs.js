@@ -1,11 +1,11 @@
 const FilteringHotelDocs = [
     {
         id: 1,
-        title: 'this is hotel tittle one',
-        location: 'this is location',
-        sublocation: 'it is sub location ',
+        title: 'Coxs bazzer hotel',
+        location: 'eita holo location',
+        sublocation: 'it is sub location coxbazzer ',
         discountPrice: '150',
-        Price: '1500',
+        Price: '7000',
         priceTitle: 'this is sub tittle',
         percentage: '15% up 17%',
         Image: require('../../Images/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg'),
@@ -18,7 +18,7 @@ const FilteringHotelDocs = [
         sublocation: 'it is sub location ',
         discountPrice: 'BDT-150',
         Price: 'BDT-1500',
-        priceTitle: 'this is sub tittle',
+        priceTitle: 'eita holo price tillte',
         percentage: '15% up 17%',
         Image: require('../../Images/r-umut-tuluoglu-ND5hWrvknqM-unsplash.jpg'),
         starCategory: 'two-star'
