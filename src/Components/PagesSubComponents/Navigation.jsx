@@ -32,16 +32,16 @@ export default function Home() {
 
                         </ul>
                         <div className="currency ">
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle mx-1" href="#dd" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div className="nav-item dropdown  text-center">
+                                <a className="nav-link dropdown-toggle mx-1" href="#dd" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img width='25px' height='25px' className='rounded-circle BdIcon' src={UsIcon} alt="" />  USD
                                 </a>
-                                <ul class="dropdown-menu mx-2" aria-labelledby="navbarScrollingDropdown">
+                                <ul className="dropdown-menu mx-2" aria-labelledby="navbarScrollingDropdown">
                                     <li><a class="dropdown-item" href="#ff">Action</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="currency__signup ">
+                        <div className="currency__signup  text-center">
                             <button className='btn btn-primary'>SIGN IN</button>
                         </div>
                     </div>

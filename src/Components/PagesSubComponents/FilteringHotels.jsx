@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import { FaSistrix, FaRegStar, FaStar, FaMapMarkerAlt, FaAngleDown } from "react-icons/fa";
+import React, { useState, useEffect } from 'react'
+import { FaRegStar, FaStar, FaMapMarkerAlt, FaAngleDown } from "react-icons/fa";
 import FilteringHotelDocs from './FliteringHotelDocs';
+import SkeletonScreen from './HotelSkeaton';
 
 export default function FilteringHotels() {
 
@@ -9,7 +10,7 @@ export default function FilteringHotels() {
     // live seacrch end state
 
     // filtering hotel start
-    const [Items, setItems] = useState(FilteringHotelDocs);
+    const [Items, setItems] = useState("");
     const filterItem = (categStarItem) => {
 
         const updatedItems = FilteringHotelDocs.filter((curElem) => {
@@ -20,6 +21,24 @@ export default function FilteringHotels() {
     }
     // filtering hotels end
 
+    // range price filtering start 
+
+
+
+
+
+
+    // range price filtering end
+
+
+    useEffect(() => {
+        // API call simulation
+        setTimeout(() => setItems(FilteringHotelDocs), 4000)
+    }, [])
+
+    if (!Items) {
+        return <SkeletonScreen />
+    }
 
 
 
@@ -27,15 +46,15 @@ export default function FilteringHotels() {
         <div className='shadow-lg'>
             <div className="container">
                 <div className="row">
-                    <div className="col-4 bg-light py-5 px-4 shadow-sm  ">
-                        <div className='py-2'>
+                    <div className="col col-lg-4 col-md-4  bg-light py-5 px-4 shadow-sm mt-2  ">
+                        <div className='py-2 '>
 
-                            <div class="dropdown">
+                            <div className="dropdown">
                                 <div className="dropdownbtn__icons">
-                                    <button class="dropbtn btn btn-light p-2 w-100 d-flex justify-content-between">Dropdown  <FaAngleDown className='my-1' /></button>
+                                    <button className="dropbtn btn btn-light p-2 w-100 d-flex justify-content-between">Dropdown  <FaAngleDown className='my-1' /></button>
 
                                 </div>
-                                <div class="dropdown-content w-100">
+                                <div className="dropdown-content w-100">
                                     <a href="#fgf" onClick={() => filterItem('one-star')} >Link 1</a>
                                     <a href="#ff" onClick={() => filterItem('two-star')}>Link 2</a>
                                     <a href="#ff" onClick={() => filterItem('three-star')}>Link 3</a>
@@ -48,13 +67,11 @@ export default function FilteringHotels() {
                         <div>
                             <span className="py-3" >Filtered by</span>
                             <hr />
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search this blog" onChange={(e) => setQuery(e.target.value)} />
-                                <div class="input-group-append">
-                                    <button class="btn btn-secondary" type="button">
-                                        <FaSistrix />
-                                    </button>
-                                </div>
+                            <div className="input-group">
+
+                                <input type="search" className="form-control" placeholder="Search this blog" onChange={(e) => setQuery(e.target.value)} />
+
+
                             </div>
                         </div>
                         <div className='py-3'>
@@ -74,29 +91,31 @@ export default function FilteringHotels() {
                             </div>
                         </div>
                         <div className="range">
-                            <label for="customRange3" class="form-label">Example range</label>
-                            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3" />
+                            <label for="customRange3" className="form-label">Example range</label>
+                            <input type="range" className="form-range" min="0" max="5" step="0.5" id="customRange3" />
+
                         </div>
 
                         <div className="checkbox">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                <label class="form-check-label" for="flexCheckDefault">
+                            <div className="form-check">
+                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Default checkbox
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
-                                <label class="form-check-label" for="flexCheckChecked">
+                                <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                                <label className="form-check-label" for="flexCheckChecked">
                                     Checked checkbox
                                 </label>
                             </div>
                         </div>
 
                     </div>
-                    <div className="col-8">
-                        <div className="row">
-                            <div className="col">
+                    <div className="col col-lg-8 col-md-8">
+
+                        <div className="rows">
+                            <div className="cols ">
                                 {
                                     Items.filter((hotel) => hotel.title.toLowerCase().includes(query) || hotel.location.toLowerCase().includes(query) || hotel.sublocation.toLowerCase().includes(query) || hotel.discountPrice.toLowerCase().includes(query) || hotel.Price.toLowerCase().includes(query) || hotel.priceTitle.toLowerCase().includes(query) || hotel.percentage.toLowerCase().includes(query)).map((items, index) => {
                                         return (
@@ -104,6 +123,7 @@ export default function FilteringHotels() {
                                                 <div key={index} className="HotelLists bg-light my-2 shadow-lg">
                                                     <div className="image w-75 p-2">
                                                         <img className='hotelsImage ' src={items.Image} alt='not found' />
+
                                                     </div>
                                                     <div className="contents d-flex  justify-content-between p-2 w-100">
                                                         <div className="leftContents float-left">
@@ -132,7 +152,7 @@ export default function FilteringHotels() {
                                                             </span>
                                                         </div>
                                                         <div className="rightContents  ">
-                                                            <div className="discount__price d-flex-end text-right">
+                                                            <div className="discount__price  text-right">
 
                                                                 <h4 className=' price text-right' >{items.Price}</h4>
                                                                 <span>
