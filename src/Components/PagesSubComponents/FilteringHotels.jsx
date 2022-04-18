@@ -30,7 +30,7 @@ export default function FilteringHotels() {
 
     // range price filtering end
 
-
+    // skeaton start 
     useEffect(() => {
         // API call simulation
         setTimeout(() => setItems(FilteringHotelDocs), 4000)
@@ -39,6 +39,7 @@ export default function FilteringHotels() {
     if (!Items) {
         return <SkeletonScreen />
     }
+    // skeaton end
 
 
 
@@ -103,10 +104,22 @@ export default function FilteringHotels() {
                                     Default checkbox
                                 </label>
                             </div>
-                            <div class="form-check">
-                                <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
-                                <label className="form-check-label" for="flexCheckChecked">
-                                    Checked checkbox
+                            <div className="form-check">
+                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    Default checkbox
+                                </label>
+                            </div>
+                            <div className="form-check">
+                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    Default checkbox
+                                </label>
+                            </div>
+                            <div className="form-check">
+                                <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    Default checkbox
                                 </label>
                             </div>
                         </div>
