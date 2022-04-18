@@ -10,6 +10,10 @@ import Home from './Components/Pages/Home'
 import './App.css';
 import SignIn from "./Components/Pages/SignIn";
 import SignUp from "./Components/Pages/SignUp";
+import axios from axios;
+axios.defaults.baseURL = "http://localhost:8000/"
+axios.defaults.withCredentials = true;
+
 export default function App() {
   return (
     <div className="App">

@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Link } from "react-router-dom";
 import Navigation from '../PagesSubComponents/Navigation'
 export default function SignIn() {
-    const [showPassword, setShowPassword] = useState(false);
+    // const [showPassword, setShowPassword] = useState(false);
     return (
         <div>
             <Navigation />
