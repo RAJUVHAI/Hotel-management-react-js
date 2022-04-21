@@ -10,9 +10,7 @@ import Home from './Components/Pages/Home'
 import './App.css';
 import SignIn from "./Components/Pages/SignIn";
 import SignUp from "./Components/Pages/SignUp";
-import axios from axios;
-axios.defaults.baseURL = "http://localhost:8000/"
-axios.defaults.withCredentials = true;
+import UserDashboard from './Components/PagesSubComponents/UserDashboard'
 
 export default function App() {
   return (
@@ -20,6 +18,9 @@ export default function App() {
 
       <Router>
         <Switch>
+          <Route path="/UserDashboard">
+            <UserDashboard />
+          </Route>
           <Route path="/SignIn">
             <SignIn />
           </Route>

@@ -28,9 +28,10 @@ export default function Home() {
                                     <span> <img src={TourIcon} alt='not found' />  </span>
                                     <br />Apartments</a>
                             </li>
-
-
                         </ul>
+                        <div className="currency__signup  text-center">
+                            <Link to="/UserDashboard"> <button style={{ borderRadius: "50px" }} className='btn btn-transperent text-primary'> User Dashboard</button> </Link>
+                        </div>
                         <div className="currency__signup  text-center">
                             <Link to="/SignIn"> <button style={{ borderRadius: "50px" }} className='btn btn-transperent text-primary'>  Login/Register</button> </Link>
                         </div>

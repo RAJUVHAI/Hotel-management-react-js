@@ -26,15 +26,20 @@ export default function FilteringHotels() {
 
 
 
-
-
     // range price filtering end
+
 
     // skeaton start 
     useEffect(() => {
         // API call simulation
         setTimeout(() => setItems(FilteringHotelDocs), 4000)
-    }, [])
+        // axios.get('localhost:8000/api/view-hotel').then(res => {
+
+        //     if (res.data.status === 200) {
+        //         console.log(res.data.hotels)
+        //     }
+        // })
+    }, []);
 
     if (!Items) {
         return <SkeletonScreen />
