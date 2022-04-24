@@ -1,0 +1,36 @@
+.footer-top-tab{
+    width: 100%;
+    
+}
+.tab-section{
+    margin: 40px 80px;
+    width: 1200px !important;
+}
+.footer-top-heading{
+    width: 100%;
+}
+
+.tab{
+    text-transform: none !important;
+    text-align: left !important;
+    
+}
+.tab-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tab-content ul{
+    margin: 5px 0;
+}
+.tab-content ul li{
+    list-style: none;
+    margin-left: -60px;
+
+}
+.tab-content ul li a{
+    text-decoration: none;
+    
+}
+.tab-content ul li:nth-child(even){
+    color: gray;
+}

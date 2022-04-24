@@ -1,0 +1,43 @@
+.discover-experiences-container {
+  margin: 20px 70px;
+}
+.discover-cards {
+  display: flex;
+}
+.discover-card1 {
+  width: 50%;
+  height: 600px;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 50px;
+  background-image: url("https://a0.muscache.com/im/pictures/0dcae177-2f65-4a15-b9e8-75d8c9b3cbe8.jpg?im_w=480");
+}
+.discover-card1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.discover-card2 {
+  width: 50%;
+  height: 600px;
+  margin: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 50px;
+  background-image: url("https://a0.muscache.com/im/pictures/4cef99fa-068f-4197-8b1d-e8e04ac0ceaf.jpg?im_w=480");
+}
+.discover-card2 {
+  color: #fff;
+  font-size: 24px;
+}
+.discover-btn {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  background-color: #fff;
+  font-weight: bold;
+}

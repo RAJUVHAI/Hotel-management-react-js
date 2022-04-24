@@ -1,0 +1,36 @@
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h1{
+    margin: 20px 0;
+}
+.right-sectio{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Card Section */
+.card-section{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.card{
+    margin: 7px;
+
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 20px;
+    margin: 10px 0;
+}

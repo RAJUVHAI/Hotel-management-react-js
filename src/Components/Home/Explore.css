@@ -1,0 +1,16 @@
+.explore {
+    padding: 50px 150px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {}
+
+.card img {
+    height: 180px;
+    width: 180px;
+}

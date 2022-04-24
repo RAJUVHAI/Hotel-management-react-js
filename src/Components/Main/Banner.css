@@ -1,0 +1,33 @@
+
+.banner{
+    height: 50vh;
+    position: relative;
+    background: url("https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-info{
+    background-color: black;
+    color: white;
+    padding-top: 12vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+.banner-info > h5{
+    margin-top: 20px;
+}
+.banner-info > button{
+    color: white;
+    background-color: #ff7779;
+    margin-top: 20px;
+    text-transform: inherit;
+    font-weight: 600;
+}
+.banner-info > button:hover{
+    background-color: white;
+    color: #ff7779;
+    
+}

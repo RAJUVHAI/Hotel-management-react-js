@@ -191,6 +191,7 @@ export default function FilteringHotels() {
                                         )
                                     })
                                 }
+                                {Items.length === 0 && <span>No records found to display!</span>}
                             </div>
                         </div>
                     </div>

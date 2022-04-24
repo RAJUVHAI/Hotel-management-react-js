@@ -1,0 +1,5 @@
+.table thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid hsl(0, 0%, 87%);
+
+}

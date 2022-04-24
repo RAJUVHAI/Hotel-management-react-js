@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Double Room",
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "location": "Los Angels, CA, USA",
+        "price": 89
+    },
+    {
+        "id": 2,
+        "name": "Open Classy Suit",
+        "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "location": "New York City, USA",
+        "price": 123
+    },
+    {
+        "id": 3,
+        "name": "Creative Modern Suit",
+        "image": "https://images.unsplash.com/photo-1589832656712-9ff45a0db738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y3JlYXRpdmUlMjBtb2Rlcm4lMjByb29tfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "location": "Berlin B, Germany",
+        "price": 125
+    },
+    {
+        "id": 4,
+        "name": "Empire State Residence",
+        "image": "https://media.istockphoto.com/photos/3dillustration-of-a-new-modern-city-loft-apartment-picture-id1127580796?b=1&k=20&m=1127580796&s=170667a&w=0&h=2oBn3U6RlViFjg5WksHiV2E40SNMRIEyFlchlpmzR_0=",
+        "location": "Los Angels, CA, USA",
+        "price": 299
+    },
+    {
+        "id": 5,
+        "name": "Open View Apartment",
+        "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b3BlbiUyMHZpZXclMjBhcGFydG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "location": "Los Angels, CA, USA",
+        "price": 149
+    },
+    {
+        "id": 6,
+        "name": "Mountain View Apartment",
+        "image": "https://media.istockphoto.com/photos/white-table-and-chairs-in-garden-with-mountain-view-at-dusk-picture-id1368341620?b=1&k=20&m=1368341620&s=170667a&w=0&h=q8r0wwxnGk8Gm8HE6TonNLdd-z8hIi60_lCGsL4Y-uk=",
+        "location": "Zurich, Swizerland",
+        "price": 99
+    }
+]

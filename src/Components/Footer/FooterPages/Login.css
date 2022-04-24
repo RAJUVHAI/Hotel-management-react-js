@@ -1,0 +1,19 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 40px 0;
+
+}
+.login-btn{
+    padding: 10px 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #ec397a;
+    border: none;
+    border-radius: 10px;
+}

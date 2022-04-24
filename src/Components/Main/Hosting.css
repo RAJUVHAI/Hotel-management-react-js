@@ -1,0 +1,19 @@
+.hosting-section {
+  background-image: url("https://a0.muscache.com/im/pictures/83f0dc6f-9290-46f6-9db5-339d525b44d1.jpg?im_w=960");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 70px;
+}
+.hosting-heading {
+  font-size: 72px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.host-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}

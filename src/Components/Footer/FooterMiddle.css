@@ -1,0 +1,74 @@
+/* Media Query Responsive Design Codes */
+@media screen and (max-width: 500px){
+    .footer-middle{
+        flex-direction: column;
+    }
+}
+
+.footer-middle{
+    display: flex;
+    margin: 40px 80px;
+    justify-content: space-between;
+}
+.footer-middle h4{
+    /* margin-left: 40px; */
+}
+/* Footer Middle Support Section */
+.footer-support ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
+.footer-support ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer-support ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Footer Middle Community Section */
+.community-section ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
+.community-section ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.community-section ul li a:hover{
+    text-decoration: underline;
+}
+
+/*  Footer Middle Hosting Section Styles */
+.hosting ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
+.hosting ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.hosting ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Footer Middle About Section */
+.about-section ul li{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -40px;
+    
+}
+.about-section ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.about-section ul li a:hover{
+    text-decoration: underline;
+}

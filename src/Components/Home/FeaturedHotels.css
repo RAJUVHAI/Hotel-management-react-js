@@ -1,0 +1,9 @@
+.featured-hotels {
+    padding: 50px 150px;
+}
+
+.featured-hotel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}

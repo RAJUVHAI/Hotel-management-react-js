@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Logo from '../../Images/IMG-20220413-WA0006-removebg-preview.png'
-import HotelIcon from '../../Images/asset 2.svg'
-import TourIcon from '../../Images/asset 3.svg'
 import UsIcon from '../../Images/usflag.png'
 
 export default function Home() {
@@ -17,21 +15,10 @@ export default function Home() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav m-auto mb-2 mb-lg-0 mt-2">
-
-                            <li className="nav-item  ">
-                                <a className="nav-link  text-center" href="#fdsa">
-                                    <span>  <img src={HotelIcon} alt='not found' />  </span>
-                                    <br />Hotels</a>
-                            </li>
-                            <li className="nav-item ">
-                                <a className="nav-link text-center" href="#ddd">
-                                    <span> <img src={TourIcon} alt='not found' />  </span>
-                                    <br />Apartments</a>
-                            </li>
                         </ul>
-                        <div className="currency__signup  text-center">
+                        {/* <div className="currency__signup  text-center">
                             <Link to="/UserDashboard"> <button style={{ borderRadius: "50px" }} className='btn btn-transperent text-primary'> User Dashboard</button> </Link>
-                        </div>
+                        </div> */}
                         <div className="currency__signup  text-center">
                             <Link to="/SignIn"> <button style={{ borderRadius: "50px" }} className='btn btn-transperent text-primary'>  Login/Register</button> </Link>
                         </div>
