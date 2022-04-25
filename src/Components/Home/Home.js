@@ -5,15 +5,17 @@ import FeaturedHotels from './FeaturedHotels';
 import Header from './Header';
 import Places from './Places';
 import Navigation from '../PagesSubComponents/Navigation'
+import Footer from './Footer';
 const Home = () => {
     return (
         <div>
-            <Navigation ></Navigation>
+            <Navigation />
             <Header />
             <ByType />
             <Explore />
             <Places />
             <FeaturedHotels />
+            <Footer />
         </div>
     );
 };

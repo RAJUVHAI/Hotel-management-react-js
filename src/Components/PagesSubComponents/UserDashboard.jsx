@@ -120,8 +120,8 @@ const UserDashboard = () => {
                                     </Row>
                                     <Row>
                                         <Col>
-                                            <div className=" my-5 bg-white rounded py-3 shadow-sm">
-                                                <div className="tableContents d-flex px-3 justify-content-between">
+                                            <div className=" my-5 bg-white rounded p-3 shadow-sm">
+                                                <div className="tableContents d-flex  justify-content-between">
                                                     <h4> Booking History </h4>
                                                     <button className="btn btn-primary">View All</button>
                                                 </div>
@@ -177,16 +177,245 @@ const UserDashboard = () => {
                                     </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <h1>hello second</h1>
+                                    <Row>
+                                        <Col>
+                                            <div className=" bg-white rounded p-3 shadow-sm">
+                                                <div className="tableContents">
+                                                    <h4> Booking History </h4>
+
+                                                </div>
+                                                <hr></hr>
+
+
+                                                <div>
+                                                    <table className="table  table-hover  ">
+                                                        <thead className="bg-primary text-light">
+                                                            <tr>
+                                                                <th scope="col">HOTEL NAME</th>
+                                                                <th scope="col">CHECK IN</th>
+                                                                <th scope="col">CHECK OUT</th>
+                                                                <th scope="col">PHONE</th>
+                                                                <th scope="col">ACTION</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody className='m-2'>
+                                                            <tr>
+                                                                <th scope="row">1</th>
+                                                                <td>Mark</td>
+                                                                <td>Otto</td>
+                                                                <td>@mdo</td>
+                                                                <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">2</th>
+                                                                <td>Jacob</td>
+                                                                <td>Thornton</td>
+                                                                <td>@mdo</td>
+                                                                <td>@fat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">3</th>
+                                                                <td>Larry</td>
+                                                                <td>the Bird</td>
+                                                                <td>@mdo</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">4</th>
+                                                                <td>Larry</td>
+                                                                <td>the Bird</td>
+                                                                <td>@mdo</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">5</th>
+                                                                <td>Larry</td>
+                                                                <td>the Bird</td>
+                                                                <td>@mdo</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="three">
-                                    <h1>hellooo three</h1>
+                                    <Row>
+                                        <Col>
+                                            <div className=" bg-white rounded p-3 shadow-sm">
+                                                <div className="tableContents d-flex  justify-content-between">
+                                                    <h4> Property Waiting for Review</h4>
+                                                    <button className="btn btn-primary">View All</button>
+                                                </div>
+                                                <hr></hr>
+
+
+                                                <div>
+                                                    <table className="table  table-hover  ">
+                                                        <thead className="bg-primary text-light">
+                                                            <tr>
+                                                                <th scope="col">PROPERTY NAME</th>
+                                                                <th scope="col">LOCATION</th>
+                                                                <th scope="col">PHONE</th>
+                                                                <th scope="col">RATE IT</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody className='m-2'>
+                                                            <tr>
+                                                                <th scope="row">1</th>
+                                                                <td>Mark</td>
+                                                                <td>Otto</td>
+                                                                <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">2</th>
+                                                                <td>Jacob</td>
+                                                                <td>Thornton</td>
+                                                                <td>@fat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">3</th>
+                                                                <td>Larry</td>
+                                                                <td>the Bird</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">4</th>
+                                                                <td>Larry</td>
+                                                                <td>the Bird</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">5</th>
+                                                                <td>Larry</td>
+                                                                <td>the Bird</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col>
+                                            <div className=" my-5 bg-white rounded p-3 shadow-sm">
+                                                <div className="tableContents d-flex  justify-content-between">
+                                                    <h4>Reviewed Property </h4>
+                                                    <button className="btn btn-primary">View All</button>
+                                                </div>
+                                                <hr></hr>
+
+
+                                                <div>
+                                                    <table className="table  table-hover  ">
+                                                        <thead className="bg-primary text-light">
+                                                            <tr>
+                                                                <th scope="col">PROPERTY NAME</th>
+                                                                <th scope="col">LOCATION</th>
+                                                                <th scope="col">PHONE</th>
+                                                                <th scope="col">RATEING</th>
+                                                                <th scope="col">RATE IT</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody className='m-2'>
+                                                            <tr>
+                                                                <th scope="row">1</th>
+                                                                <td>Mark</td>
+                                                                <td>Otto</td>
+                                                                <td>@mdo</td>
+                                                                <td>@mdo</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">2</th>
+                                                                <td>Jacob</td>
+                                                                <td>Thornton</td>
+                                                                <td>@mdo</td>
+                                                                <td>@fat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">3</th>
+                                                                <td>Larry</td>
+                                                                <td>@mdo</td>
+                                                                <td>@mdo</td>
+                                                                <td>the Bird</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">4</th>
+                                                                <td>Larry</td>
+                                                                <td>@mdo</td>
+                                                                <td>the Bird</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th scope="row">5</th>
+                                                                <td>Larry</td>
+                                                                <td>@mdo</td>
+                                                                <td>the Bird</td>
+                                                                <td>@twitter</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="four">
-                                    <h1>hellooo four</h1>
+                                  <h1>hello support ticket</h1>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="five">
-                                    <h1>hellooo five</h1>
+                                   <Row>
+                                   <form>
+                                        <div class="form-row p-2">
+                                            <div class="form-group col-md-6">
+                                                <label for="inputEmail4">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" />
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="inputPassword4">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputAddress">Address</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputAddress2">Address 2</label>
+                                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="inputCity">City</label>
+                                                <input type="text" class="form-control" id="inputCity" />
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <label for="inputState">State</label>
+                                                <select id="inputState" class="form-control">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-md-2">
+                                                <label for="inputZip">Zip</label>
+                                                <input type="text" class="form-control" id="inputZip" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck" />
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Check me out
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary ">Sign in</button>
+                                    </form>
+                                        </Row>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="six">
                                     <h1>hellooo six</h1>

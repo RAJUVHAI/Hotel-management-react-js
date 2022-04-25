@@ -11,6 +11,7 @@ import './App.css';
 import SignIn from "./Components/Pages/SignIn";
 import SignUp from "./Components/Pages/SignUp";
 import UserDashboard from './Components/PagesSubComponents/UserDashboard'
+import HomePage from './Components/Home/Home'
 
 export default function App() {
   return (
@@ -18,7 +19,9 @@ export default function App() {
 
       <Router>
         <Switch>
-
+          <Route path="/HomePage">
+            <HomePage />
+          </Route>
           <Route path="/UserDashboard">
             <UserDashboard />
           </Route>
